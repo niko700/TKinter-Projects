@@ -70,7 +70,7 @@ def convert(s1, s2="225"):
     total = n1/n2*100
     string_total = str(round(total,2))
     print(string_total) #to check while running
-    print(type(string_total))
+    # print(type(string_total))
     return string_total
 
 
@@ -84,7 +84,7 @@ def handle_click(event):
     
     #calculate percent using convert() function
     total = convert(btn.out_string)
-    print(type(total))
+    # print(type(total))
     
     #create display text using result above
     to_display = "You're " + total + " % done!"
